@@ -1,0 +1,125 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #141a28;
+    color: #e0e0e0;
+    padding: 0;
+    margin: 0;
+}
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #1f2a3c;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #ffcc00;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffcc00;
+    text-shadow: 2px 2px #000;
+}
+
+/* Main Section */
+main {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #1f2a3c;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Seminar Table Styling */
+.seminar-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    color: #e0e0e0;
+}
+
+.seminar-table th, .seminar-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ffcc00;
+}
+
+.seminar-table th {
+    background-color: #273548;
+    color: #ffcc00;
+}
+
+.seminar-table td {
+    background-color: #3b4a61;
+}
+
+/* Form Section */
+.update-seminar {
+    margin-top: 40px;
+}
+
+.update-seminar h2 {
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+.update-seminar form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.update-seminar label {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+}
+
+.update-seminar input[type="text"],
+.update-seminar input[type="url"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffcc00;
+    background-color: #273548;
+    color: #e0e0e0;
+}
+
+.update-seminar input[type="submit"] {
+    background-color: #ffcc00;
+    color: #1f2a3c;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.update-seminar input[type="submit"]:hover {
+    background-color: #e6b800;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1f2a3c;
+    border-top: 4px solid #ffcc00;
+    color: #888;
+}
+
+footer p {
+    margin: 0;
+}

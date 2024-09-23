@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; /* Ensures the full height of the viewport is used */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+header {
+    background-color: #ff9900;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    display: inline;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(120deg, #6e42f4, #ff7e5f);
+    min-height: 100vh; /* Ensures that the hero section covers the full screen height */
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.buttons form {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+input[type="submit"] {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #e68a00;
+}
+
+.market-info {
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.market-info .rate {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.market-info .stats {
+    font-size: 16px;
+}
+
+/* Style for the Login and Signup section */
+/*#login-signup {
+    background-color: #f4f4f4;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}*/
+
+h3 {
+    margin-bottom: 20px;
+    color: #ff9900;
+}
+
+.form-container form {
+    margin-bottom: 30px;
+}
+
+.form-container input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #e68a00;
+}

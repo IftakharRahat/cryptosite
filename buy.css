@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.crypto-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.crypto-card:hover {
+    transform: translateY(-10px);
+}
+
+.crypto-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.crypto-name h2 {
+    font-size: 16px;
+    color: #333;
+}
+
+.crypto-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.crypto-price {
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.crypto-change {
+    font-size: 14px;
+    font-weight: bold;
+    color: #4caf50; /* default positive color */
+}
+
+.crypto-change.positive {
+    color: #4caf50;
+}
+
+.crypto-change.negative {
+    color: #f44336;
+}
+
+.crypto-change.neutral {
+    color: #757575;
+}
+
+.buy-button {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}

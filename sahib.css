@@ -1,0 +1,103 @@
+/* Reset and universal styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling with crypto-themed colors */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0f1c;
+    color: #e0e0e0;
+    padding: 0;
+    margin: 0;
+}
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #151e3d;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #ffcc00;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffcc00;
+    text-shadow: 2px 2px #000;
+}
+
+/* Main section styling */
+main {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #151e3d;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Seminar section */
+.seminars h2 {
+    font-size: 2rem;
+    color: #ffcc00;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Expert list table styling */
+.expert-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    color: #e0e0e0;
+}
+
+.expert-table th, .expert-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ffcc00;
+}
+
+.expert-table th {
+    background-color: #1e293a;
+    color: #ffcc00;
+}
+
+.expert-table td {
+    background-color: #29384d;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #151e3d;
+    border-top: 4px solid #ffcc00;
+    color: #888;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Button styling (if needed for future functionality) */
+button {
+    background-color: #ffcc00;
+    color: #121212;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d4af37;
+}
